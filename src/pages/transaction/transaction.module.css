@@ -1,0 +1,61 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: row;
+  overflow-y: auto;
+  margin-bottom: 100px;
+}
+
+.filterContent {
+  display: flex;
+  flex: 1; 
+  flex-direction: column; 
+  gap: 40px;
+}
+
+.filterContentBox {
+  padding: 15px; 
+  background-color: #efefef;
+  border-radius: 5px;
+}
+
+.tableContent {
+  display: flex; 
+  flex: 3; 
+  align-content: flex-start; 
+  margin-bottom: 100px;
+  height: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: block;
+  height: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+  width: 240px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.List {
+  border: 1px solid #d9dddd;
+}
+
+.ListItemEven,
+.ListItemOdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ListItemEven {
+  background-color: #f8f8f0;
+}

@@ -1,0 +1,30 @@
+.container {
+  position: absolute;
+  top: 30%;
+  transform: translate(-10%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.container > h1 {
+  text-align: center;
+}
+
+.container > hr {
+  width: 25%;
+  margin: 25px auto;
+}
+
+.linkBtn {
+  margin-top: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #8A2BE2;
+  padding: 10px 25px;
+  border-radius: 3px;
+}
+
+.linkBtn:hover,
+.linkBtn:active {
+  background-color: #6E22B6;
+}
